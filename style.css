@@ -1,0 +1,29 @@
+
+button:hover{background-color: pink;
+}
+button{
+  transition:background-color 0.5s ease-in-out 0.5s;
+}
+selector{
+  transform:value;
+}
+div{
+  transform:translate(20px,50px);
+}
+img{
+  transform:scale(1.5,2);
+}
+button{
+  transform:rotate(60deg);
+}
+@keyframes hello {
+  0%{color: pink;}
+  50%{color: red;}
+  100%{color: orange;}
+  button{
+    animation-duration:3s
+  }
+  button{
+    animation-delay:2.1ms
+  }
+  button{ animation: example 3s ease-in 1.2s2 alternative
